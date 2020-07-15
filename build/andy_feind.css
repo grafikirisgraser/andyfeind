@@ -1,0 +1,190 @@
+html {
+  font-family: "HarrisonSerifPro-Light";
+  font-size: 16px;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-feature-settings: "onum" 1, "pnum" 1, "frac" 0, "kern" 1, "liga" 1, "dlig" 1, "clig" 1, "swsh" 1;
+}
+
+body {
+  background-color: whitesmoke;
+  min-height: 100vh;
+}
+
+* {
+  color: black;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, figure, figcaption, blockquote, dl, dd {
+  line-height: 1.3em;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, strong, th {
+  font-weight: normal;
+}
+
+em {
+  font-style: normal;
+}
+
+ul, ol {
+  list-style: none;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+body:before {
+  content: "standard";
+  position: fixed;
+  background: #5ecf88;
+  color: white;
+  left: 0;
+  top: 50%;
+  padding: 15px 20px;
+  z-index: 9999;
+  font-weight: bold;
+  display: block;
+}
+
+@media (max-width: 1200px) {
+  body:before {
+    content: "mega";
+    background: fuchsia;
+    display: block;
+  }
+}
+
+@media (max-width: 950px) {
+  body:before {
+    content: "maxi";
+    background: orange;
+  }
+}
+
+@media (max-width: 650px) {
+  body:before {
+    content: "midi";
+    background: black;
+  }
+}
+
+@media (max-width: 400px) {
+  body:before {
+    content: "mini";
+    background: cyan;
+  }
+}
+
+* {
+  font-size: 18px;
+}
+
+.raster {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  background-color: whitesmoke;
+}
+@media (max-width: 950px) {
+  .raster {
+    flex-direction: column-reverse;
+  }
+}
+.raster .abteil {
+  width: 25%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (max-width: 950px) {
+  .raster .abteil {
+    width: 100%;
+    height: 25vh;
+  }
+}
+.raster .abteil a {
+  padding: 1em;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: stretch;
+  height: 100%;
+  text-decoration: none;
+  opacity: 0.5;
+}
+.raster .abteil h2, .raster .abteil h3 {
+  color: whitesmoke;
+}
+.raster .abteil h2 {
+  font-size: 4rem;
+  line-height: 0.8em;
+}
+.raster #abteil1 {
+  background-image: url(./assets/images/juergen_1000.png);
+}
+.raster #abteil1 a {
+  background-color: skyblue;
+}
+.raster #abteil2 {
+  background-image: url(./assets/images/marisa_1000.png);
+}
+.raster #abteil2 a {
+  background-color: tomato;
+}
+.raster #abteil3 {
+  background-image: url(./assets/images/iris_1000.png);
+}
+.raster #abteil3 a {
+  background-color: orange;
+}
+.raster #abteil4 {
+  background-color: whitesmoke;
+  flex-direction: column;
+  padding: 1em;
+  position: relative;
+}
+@media (max-width: 950px) {
+  .raster #abteil4 {
+    grid-row: 1/2;
+  }
+}
+.raster #abteil4 h1, .raster #abteil4 li, .raster #abteil4 a {
+  color: black;
+}
+.raster #abteil4 h1 {
+  font-weight: bold;
+  font-size: 4rem;
+  line-height: 0.7em;
+  transform: rotateY(180deg);
+}
+.raster #abteil4 h2 {
+  color: black;
+}
+.raster #abteil4 ul {
+  position: absolute;
+  text-align: right;
+  right: 1em;
+  bottom: 1em;
+}
+.raster #abteil4 a {
+  padding: 0;
+  background-image: linear-gradient(black, black);
+  background-size: 100% 1px;
+  background-repeat: no-repeat;
+  background-position: 0 95%;
+}
+.raster #abteil4 a:hover {
+  font-style: italic;
+}
