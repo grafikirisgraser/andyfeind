@@ -34,33 +34,33 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"/source/assets/images/iris_1000.png": {
+	"/source/assets/images/ig.png": {
 		"ft": 32768,
-		"iS": 1528170,
+		"iS": 1578408,
 		"oA": 0,
-		"oAP": "/build/assets/images/iris_1000.png",
+		"oAP": "/build/assets/images/ig.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"/source/assets/images/juergen_1000.png": {
+	"/source/assets/images/jw.png": {
 		"ft": 32768,
-		"iS": 1464431,
+		"iS": 1385348,
 		"oA": 0,
-		"oAP": "/build/assets/images/juergen_1000.png",
+		"oAP": "/build/assets/images/jw.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"/source/assets/images/marisa_1000.png": {
+	"/source/assets/images/mm.png": {
 		"ft": 32768,
-		"iS": 1625227,
+		"iS": 1677748,
 		"oA": 0,
-		"oAP": "/build/assets/images/marisa_1000.png",
+		"oAP": "/build/assets/images/mm.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,

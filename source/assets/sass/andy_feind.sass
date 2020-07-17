@@ -27,25 +27,23 @@
       align-items: stretch
       height: 100%
       text-decoration: none
-      opacity: 0.5
+      &:hover
+        h2
+          font-size: 4.5rem
+          transition: 0.1s
     h2, h3
       color: whitesmoke
     h2
       font-size: 4rem
       line-height: 0.8em
 
+
   #abteil1
-    background-image: url(./assets/images/juergen_1000.png)
-    a
-      background-color: skyblue
+    background-image: url(./assets/images/jw.png)
   #abteil2
-    background-image: url(./assets/images/marisa_1000.png)
-    a
-      background-color: tomato
+    background-image: url(./assets/images/mm.png)
   #abteil3
-    background-image: url(./assets/images/iris_1000.png)
-    a
-      background-color: orange
+    background-image: url(./assets/images/ig.png)
   #abteil4
     background-color: whitesmoke
     flex-direction: column
@@ -60,13 +58,12 @@
       font-size: 4rem
       line-height: 0.7em
       transform: rotateY(180deg)
-    h2
-      color: black
-    ul
+    p
       position: absolute
       text-align: right
       right: 1em
-      bottom: 1em
+      bottom: 5em
+      font-size: 1.5rem
     a
       padding: 0
       background-image: linear-gradient(black, black)

@@ -122,7 +122,10 @@ body:before {
   align-items: stretch;
   height: 100%;
   text-decoration: none;
-  opacity: 0.5;
+}
+.raster .abteil a:hover h2 {
+  font-size: 4.5rem;
+  transition: 0.1s;
 }
 .raster .abteil h2, .raster .abteil h3 {
   color: whitesmoke;
@@ -132,22 +135,13 @@ body:before {
   line-height: 0.8em;
 }
 .raster #abteil1 {
-  background-image: url(./assets/images/juergen_1000.png);
-}
-.raster #abteil1 a {
-  background-color: skyblue;
+  background-image: url(./assets/images/jw.png);
 }
 .raster #abteil2 {
-  background-image: url(./assets/images/marisa_1000.png);
-}
-.raster #abteil2 a {
-  background-color: tomato;
+  background-image: url(./assets/images/mm.png);
 }
 .raster #abteil3 {
-  background-image: url(./assets/images/iris_1000.png);
-}
-.raster #abteil3 a {
-  background-color: orange;
+  background-image: url(./assets/images/ig.png);
 }
 .raster #abteil4 {
   background-color: whitesmoke;
@@ -169,14 +163,12 @@ body:before {
   line-height: 0.7em;
   transform: rotateY(180deg);
 }
-.raster #abteil4 h2 {
-  color: black;
-}
-.raster #abteil4 ul {
+.raster #abteil4 p {
   position: absolute;
   text-align: right;
   right: 1em;
-  bottom: 1em;
+  bottom: 5em;
+  font-size: 1.5rem;
 }
 .raster #abteil4 a {
   padding: 0;
