@@ -34,6 +34,38 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"/source/assets/fonts/Degular_Text-Black.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/assets/fonts/Degular_Text-Black.woff",
+		"oF": 0
+		},
+	"/source/assets/fonts/Degular_Text-Black.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/assets/fonts/Degular_Text-Black.woff2",
+		"oF": 0
+		},
+	"/source/assets/fonts/Ohno_Fatface-72_Pt_Compressed.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/assets/fonts/Ohno_Fatface-72_Pt_Compressed.woff",
+		"oF": 0
+		},
+	"/source/assets/fonts/Ohno_Fatface-72_Pt_Compressed.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/assets/fonts/Ohno_Fatface-72_Pt_Compressed.woff2",
+		"oF": 0
+		},
 	"/source/assets/images/ig.png": {
 		"ft": 32768,
 		"iS": 1578408,
@@ -99,6 +131,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/assets/sass/_destyle.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/source/assets/sass/_fonts.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/build/assets/sass/_fonts.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0

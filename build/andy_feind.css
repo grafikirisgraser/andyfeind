@@ -1,9 +1,17 @@
+@font-face {
+  font-family: "Degular_Text-Black";
+  src: url("assets/fonts/Degular_Text-Black.woff2") format("woff2"), url("assets/fonts/Degular_Text-Black.woff") format("woff");
+}
+@font-face {
+  font-family: "Ohno_Fatface-72_Pt_Compressed";
+  src: url("assets/fonts/Ohno_Fatface-72_Pt_Compressed.woff2") format("woff2"), url("assets/fonts/Ohno_Fatface-72_Pt_Compressed.woff") format("woff");
+}
 html {
-  font-family: "HarrisonSerifPro-Light";
+  font-family: "Degular_Text-Black";
   font-size: 16px;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  font-feature-settings: "onum" 1, "pnum" 1, "frac" 0, "kern" 1, "liga" 1, "dlig" 1, "clig" 1, "swsh" 1;
+  font-feature-settings: "onum" 1, "pnum" 1, "kern" 1, "liga" 1;
 }
 
 body {
@@ -89,7 +97,7 @@ body:before {
 }
 
 * {
-  font-size: 18px;
+  font-size: 25px;
 }
 
 .raster {
@@ -124,25 +132,18 @@ body:before {
   text-decoration: none;
 }
 .raster .abteil a:hover h2 {
-  font-size: 4.5rem;
+  font-family: "Ohno_Fatface-72_Pt_Compressed";
+  font-size: 10vw;
+  line-height: 0.75em;
   transition: 0.1s;
-}
-@media (max-width: 950px) {
-  .raster .abteil a:hover h2 {
-    font-size: 3.5rem;
-  }
 }
 .raster .abteil h2, .raster .abteil h3 {
   color: whitesmoke;
 }
 .raster .abteil h2 {
-  font-size: 4rem;
-  line-height: 0.8em;
-}
-@media (max-width: 950px) {
-  .raster .abteil h2 {
-    font-size: 3rem;
-  }
+  font-family: "Ohno_Fatface-72_Pt_Compressed";
+  font-size: 10vw;
+  line-height: 0.75em;
 }
 .raster .abteil h3 {
   margin-bottom: 2em;
@@ -171,10 +172,10 @@ body:before {
   color: black;
 }
 .raster #abteil4 h1 {
-  font-weight: bold;
-  font-size: 4rem;
-  line-height: 0.7em;
-  transform: rotateY(180deg);
+  font-family: "Ohno_Fatface-72_Pt_Compressed";
+  font-size: 10vw;
+  line-height: 0.75em;
+  transform: rotate(180deg);
 }
 .raster #abteil4 p {
   position: absolute;
